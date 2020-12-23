@@ -1,0 +1,160 @@
+@import "fontiran.css";
+body {
+  font-family: IRANSans !important;
+  direction: rtl;
+  text-align: right;
+  color: #515151;
+  background: #f5f5f5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: unset;
+  outline: 0;
+  box-shadow: none;
+}
+
+.dk_manu .nav-link {
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+.dk_manu .nav-link:hover {
+  color: #fff !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dk_product {
+  box-shadow: 0 12px 12px 0 rgba(181, 181, 181, 0.11);
+  border: 1px solid #e4e4e4;
+  margin: 10px 10px 10px 10px;
+}
+
+.card-img-top {
+  width: 130px !important;
+}
+
+.dk_product_navTab a {
+  color: #797979 !important;
+}
+
+.dk_card {
+  box-shadow: 0 12px 12px 0 rgba(181, 181, 181, 0.11);
+  border: 1px solid #e4e4e4;
+}
+
+.dk_card_table > thead > tr {
+  border-bottom: solid 1px #e4e4e4;
+}
+
+.dk_card_table > thead > tr:last-child {
+  border-bottom: none;
+}
+
+.quantity {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: right;
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-right: 35px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  position: relative;
+}
+
+.quantity-button {
+  cursor: pointer;
+  border: 1px solid #eee;
+  border-radius: 9px;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  top: 0;
+  right: -25px;
+  width: 30px;
+  height: 40px;
+  font-size: 22px;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  top: 0;
+  right: 49px;
+  width: 30px;
+  height: 40px;
+  font-size: 22px;
+}
+
+.product_images_section {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 5px;
+  margin-top: 5px;
+}
+
+.product_images_thumb img {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #d5d5d5;
+  height: 95px;
+  width: 110px;
+}
+
+.product_images_thumb.selected {
+  border: 1px solid #9a9a9a;
+}
+
+.product_images_thumb img:hover {
+  border: 1px solid #9a9a9a;
+}

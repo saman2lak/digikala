@@ -1,0 +1,227 @@
+/**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		4.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Dec 12, 2015
+*	Website:		http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*
+**/
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url(/fonts/IRANSansWeb_Bold.eot?7626d015e15844db7d1f54c8e415461a);
+	src: url(/fonts/IRANSansWeb_Bold.eot?7626d015e15844db7d1f54c8e415461a?#iefix) format('embedded-opentype'),  
+		 url(/fonts/IRANSansWeb_Bold.woff2?6ec03a37e370c0d7f4f6bbdba0feac23) format('woff2'),  
+		 url(/fonts/IRANSansWeb_Bold.woff?a762a767a3459fec2195da1373ebf0b1) format('woff'),  
+		 url(/fonts/IRANSansWeb_Bold.ttf?4ff441e3b8c51acd2261585feca1d8c8) format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url(/fonts/IRANSansWeb_Medium.eot?1121c0520a30a7295ffe21dd3fe77a60);
+	src: url(/fonts/IRANSansWeb_Medium.eot?1121c0520a30a7295ffe21dd3fe77a60?#iefix) format('embedded-opentype'),  
+		 url(/fonts/IRANSansWeb_Medium.woff2?bb6a9fe5edb6791184821d992bffdcf4) format('woff2'),  
+		 url(/fonts/IRANSansWeb_Medium.woff?74e2ab212452657f2fc66bd08873884b) format('woff'),  
+		 url(/fonts/IRANSansWeb_Medium.ttf?7a75459b25fca9937df9110d7e049133) format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url(/fonts/IRANSansWeb_Light.eot?60f95f28d8469e5df0398ba1d3e9708e);
+	src: url(/fonts/IRANSansWeb_Light.eot?60f95f28d8469e5df0398ba1d3e9708e?#iefix) format('embedded-opentype'),  
+		 url(/fonts/IRANSansWeb_Light.woff2?414e7148a634bfc82a601e3dacf84e96) format('woff2'),  
+		 url(/fonts/IRANSansWeb_Light.woff?469a8f6aa5b4631045b7d922102392ac) format('woff'),  
+		 url(/fonts/IRANSansWeb_Light.ttf?53a90b39dae08e4e4539ca2ce0cb3a68) format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url(/fonts/IRANSansWeb_UltraLight.eot?b8efb89efe7dc02c439a362d17c9dc5e);
+	src: url(/fonts/IRANSansWeb_UltraLight.eot?b8efb89efe7dc02c439a362d17c9dc5e?#iefix) format('embedded-opentype'),  
+		 url(/fonts/IRANSansWeb_UltraLight.woff2?5010d0152420ca7bd3acb1a9d668a57e) format('woff2'),  
+		 url(/fonts/IRANSansWeb_UltraLight.woff?153b7b5a1579526611373210b6fd8754) format('woff'),  
+		 url(/fonts/IRANSansWeb_UltraLight.ttf?eeb1edcad9b20c19bd1eecd1c371e4f8) format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url(/fonts/IRANSansWeb.eot?e43cfbc1a67d90e910398ded8345cd32);
+	src: url(/fonts/IRANSansWeb.eot?e43cfbc1a67d90e910398ded8345cd32?#iefix) format('embedded-opentype'),  
+		 url(/fonts/IRANSansWeb.woff2?c6f46673e2449eb071e2c098c5190c2a) format('woff2'),  
+		 url(/fonts/IRANSansWeb.woff?df14582918ca379a280e453bb3cc6ba5) format('woff'),  
+		 url(/fonts/IRANSansWeb.ttf?ac22d187130d6c3433a49a1e98bfa968) format('truetype');
+}
+body {
+  font-family: IRANSans !important;
+  direction: rtl;
+  text-align: right;
+  color: #515151;
+  background: #f5f5f5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: unset;
+  outline: 0;
+  box-shadow: none;
+}
+
+.dk_manu .nav-link {
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+.dk_manu .nav-link:hover {
+  color: #fff !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dk_product {
+  box-shadow: 0 12px 12px 0 rgba(181, 181, 181, 0.11);
+  border: 1px solid #e4e4e4;
+  margin: 10px 10px 10px 10px;
+}
+
+.card-img-top {
+  width: 130px !important;
+}
+
+.dk_product_navTab a {
+  color: #797979 !important;
+}
+
+.dk_card {
+  box-shadow: 0 12px 12px 0 rgba(181, 181, 181, 0.11);
+  border: 1px solid #e4e4e4;
+}
+
+.dk_card_table > thead > tr {
+  border-bottom: solid 1px #e4e4e4;
+}
+
+.dk_card_table > thead > tr:last-child {
+  border-bottom: none;
+}
+
+.quantity {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: right;
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-right: 35px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  position: relative;
+}
+
+.quantity-button {
+  cursor: pointer;
+  border: 1px solid #eee;
+  border-radius: 9px;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  top: 0;
+  right: -25px;
+  width: 30px;
+  height: 40px;
+  font-size: 22px;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  top: 0;
+  right: 49px;
+  width: 30px;
+  height: 40px;
+  font-size: 22px;
+}
+
+.product_images_section {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 5px;
+  margin-top: 5px;
+}
+
+.product_images_thumb img {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #d5d5d5;
+  height: 95px;
+  width: 110px;
+}
+
+.product_images_thumb.selected {
+  border: 1px solid #9a9a9a;
+}
+
+.product_images_thumb img:hover {
+  border: 1px solid #9a9a9a;
+}
+
